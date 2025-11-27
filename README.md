@@ -20,5 +20,5 @@ Create a secret with certificates of Keycloak hostname
 oc create secret tls sso-tls-secret --cert certificate.pem --key key.pem
 
 #Install Keycloak Instance
-oc create -f keycloak/kc-example.yaml 
+oc create -f keycloak/kc-example.yaml
 
