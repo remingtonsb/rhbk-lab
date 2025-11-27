@@ -1,0 +1,3 @@
+oc create secret generic keycloak-db-secret \
+  --from-literal=username=keycloak \
+  --from-literal=password=keycloak
